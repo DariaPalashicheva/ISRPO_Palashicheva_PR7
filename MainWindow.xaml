@@ -1,0 +1,155 @@
+﻿<Window x:Class="ISRPO_Palashicheva_PR7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ISRPO_Palashicheva_PR7"
+        mc:Ignorable="d"
+        Title="Меню" Height="900" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100*"/>
+            <ColumnDefinition Width="100*"/>
+            <ColumnDefinition Width="100*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="50*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="1" Grid.Column="0">
+            <Label Content="Первые блюда" FontSize="16"/>
+            <Label Content="Рассольник" FontSize="16">
+                <Label.ToolTip>
+                    <ToolTip Width="200" Height="150">
+                        <StackPanel>
+                            <Image Source="image/рассольник.jpg" />
+                        </StackPanel>
+                    </ToolTip>
+                </Label.ToolTip>
+            </Label>
+            <Label Content="Борщ" FontSize="16">
+            <Label.ToolTip>
+                <ToolTip Width="200" Height="150">
+                    <StackPanel>
+                        <Image Source="image/борщ.jpg" />
+                    </StackPanel>
+                </ToolTip>
+            </Label.ToolTip>
+            </Label>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <Label Content="Цена (р.)" FontSize="16"/>
+            <Label Content="160" FontSize="16"/>
+            <Label Content="200" FontSize="16"/>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="0">
+            <Label Content="Вторые блюда" FontSize="16"/>
+            <Label Content="Паста карбонара" FontSize="16">
+            <Label.ToolTip>
+                <ToolTip Width="200" Height="150">
+                    <StackPanel>
+                        <Image Source="image/карбонара.jpg" />
+                    </StackPanel>
+                </ToolTip>
+            </Label.ToolTip>
+            </Label>
+            <Label Content="Ленивые голубцы" FontSize="16">
+            <Label.ToolTip>
+                <ToolTip Width="200" Height="150">
+                    <StackPanel>
+                        <Image Source="image/голубцы.jpg" />
+                    </StackPanel>
+                </ToolTip>
+            </Label.ToolTip>
+            </Label>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="1">
+            <Label Content="Цена (р.)" FontSize="16"/>
+            <Label Content="320" FontSize="16"/>
+            <Label Content="100" FontSize="16"/>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Grid.Column="0">
+            <Label Content="Напитки" FontSize="16"/>
+            <Label Content="Лимонад" FontSize="16">
+            <Label.ToolTip>
+                <ToolTip Width="200" Height="150">
+                    <StackPanel>
+                        <Image Source="image/лимонад.jpg"/>
+                    </StackPanel>
+                </ToolTip>
+            </Label.ToolTip>
+            </Label>
+            <Label Content="Компот" FontSize="16">
+            <Label.ToolTip>
+                <ToolTip Width="200" Height="150">
+                    <StackPanel>
+                        <Image Source="image/компот.jpg" />
+                    </StackPanel>
+                </ToolTip>
+            </Label.ToolTip>
+            </Label>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Grid.Column="1">
+            <Label Content="Цена (р.)" FontSize="16"/>
+            <Label Content="60" FontSize="16"/>
+            <Label Content="40" FontSize="16"/>
+        </StackPanel>
+        <StackPanel Grid.Row="4" Grid.Column="0">
+            <Label Content="Десерты" FontSize="16"/>
+            <Label Content="Пирожное день и ночь" FontSize="16">
+            <Label.ToolTip>
+                <ToolTip Width="200" Height="150">
+                    <StackPanel>
+                        <Image Source="image/деньночь.jpg" />
+                    </StackPanel>
+                </ToolTip>
+            </Label.ToolTip>
+            </Label>
+            <Label Content="Красный бархат" FontSize="16">
+            <Label.ToolTip>
+                <ToolTip Width="200" Height="150">
+                    <StackPanel>
+                        <Image Source="image/красн.jpg" />
+                    </StackPanel>
+                </ToolTip>
+            </Label.ToolTip>
+            </Label>
+        </StackPanel>
+        <StackPanel Grid.Row="4" Grid.Column="1">
+            <Label Content="Цена (р.)" FontSize="16"/>
+            <Label Content="120" FontSize="16"/>
+            <Label Content="135" FontSize="16"/>
+        </StackPanel>
+        <StackPanel Grid.Row="5" Grid.Column="0">
+            <Label Content="Закуски" FontSize="16"/>
+            <Label Content="Сырная закуска на чипсах" FontSize="16">
+            <Label.ToolTip>
+                <ToolTip Width="200" Height="150">
+                    <StackPanel>
+                        <Image Source="image/чипс.jpg" />
+                    </StackPanel>
+                </ToolTip>
+            </Label.ToolTip>
+            </Label>
+            <Label Content="Канапе" FontSize="16">
+            <Label.ToolTip>
+                <ToolTip Width="200" Height="150">
+                    <StackPanel>
+                        <Image Source="image/канапе.jpeg" />
+                    </StackPanel>
+                </ToolTip>
+            </Label.ToolTip>
+            </Label>
+        </StackPanel>
+        <StackPanel Grid.Row="5" Grid.Column="1">
+            <Label Content="Цена (р.)" FontSize="16"/>
+            <Label Content="80" FontSize="16"/>
+            <Label Content="85" FontSize="16"/>
+        </StackPanel>
+    </Grid>
+</Window>
