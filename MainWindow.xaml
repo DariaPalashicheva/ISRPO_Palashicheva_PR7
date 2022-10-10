@@ -23,7 +23,7 @@
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="1" Grid.Column="0">
             <Label Content="Первые блюда" FontSize="16"/>
-            <Label Content="Рассольник" FontSize="16">
+            <Label Content="Рассольник" FontSize="16" MouseDoubleClick="rasso_MouseDoubleClick">
                 <Label.ToolTip>
                     <ToolTip Width="200" Height="150">
                         <StackPanel>
@@ -127,7 +127,7 @@
         </StackPanel>
         <StackPanel Grid.Row="5" Grid.Column="0">
             <Label Content="Закуски" FontSize="16"/>
-            <Label Content="Сырная закуска на чипсах" FontSize="16">
+            <Label Content="Сырная закуска на чипсах" FontSize="16" MouseDoubleClick="chips_MouseDoubleClick">
             <Label.ToolTip>
                 <ToolTip Width="200" Height="150">
                     <StackPanel>
@@ -136,7 +136,7 @@
                 </ToolTip>
             </Label.ToolTip>
             </Label>
-            <Label Content="Канапе" FontSize="16">
+            <Label Content="Канапе" FontSize="16" MouseDoubleClick="kanape_MouseDoubleClick">
             <Label.ToolTip>
                 <ToolTip Width="200" Height="150">
                     <StackPanel>

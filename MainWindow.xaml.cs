@@ -25,5 +25,20 @@ namespace ISRPO_Palashicheva_PR7
             InitializeComponent();
            
         }
+
+        private void chips_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {  
+            MessageBox.Show("Сыр\nПомидоры\nЗелень\nЧеснок\nМайонез\nКартофельные чипсы\nОливки", "Состав");
+        }
+
+        private void kanape_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            MessageBox.Show("Помидоры черри\nСыр мини моцарелла\nПесто", "Состав");
+        }
+
+        private void rasso_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            MessageBox.Show("Спинка куриная\nКартофель\nМорковь\nЛук репчатый\nПерловка\nМасло растительное\nОгурцы соленые\nРассол огуречный", "Состав");
+        }
     }
 }
