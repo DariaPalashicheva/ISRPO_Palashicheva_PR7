@@ -6,11 +6,11 @@
         xmlns:local="clr-namespace:ISRPO_Palashicheva_PR7"
         mc:Ignorable="d"
         Title="Меню" Height="900" Width="900">
-    <Grid>
+    <Grid Background="#FFD0C6DE">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="80*"/>
-            <ColumnDefinition Width="50*"/>
-            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="60*"/>
+            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="30*"/>
             <ColumnDefinition Width="100*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
@@ -22,8 +22,8 @@
             <RowDefinition Height="50*"/>
             <RowDefinition Height="50*"/>
         </Grid.RowDefinitions>
-        <StackPanel Grid.Row="1" Grid.Column="0">
-            <Label Content="Первые блюда" FontSize="16"/>
+        <StackPanel Grid.Row="1" Grid.Column="0" Background="#FFD5AFD8">
+            <Label Content="Первые блюда" FontSize="16" Background="#FFB885B8"/>
             <Label Content="Рассольник" FontSize="16" MouseDoubleClick="rasso_MouseDoubleClick">
                 <Label.ToolTip>
                     <ToolTip Width="200" Height="150">
@@ -43,13 +43,13 @@
                 </Label.ToolTip>
             </Label>
         </StackPanel>
-        <StackPanel Grid.Row="1" Grid.Column="1">
-            <Label Content="Цена (р.)" FontSize="16"/>
+        <StackPanel Grid.Row="1" Grid.Column="1" Background="#FFD5AFD8">
+            <Label Content="Цена (р.)" FontSize="16" Background="#FFB885B8"/>
             <Label x:Name="rass" Content="160" FontSize="16"/>
             <Label Content="200" FontSize="16"/>
         </StackPanel>
-        <StackPanel Grid.Row="2" Grid.Column="0">
-            <Label Content="Вторые блюда" FontSize="16"/>
+        <StackPanel Grid.Row="2" Grid.Column="0" Background="#FFD5AFD8">
+            <Label Content="Вторые блюда" FontSize="16" Background="#FFB885B8"/>
             <Label Content="Паста карбонара" FontSize="16" MouseDoubleClick="karbonara_MouseDoubleClick">
                 <Label.ToolTip>
                     <ToolTip Width="200" Height="150">
@@ -69,13 +69,13 @@
                 </Label.ToolTip>
             </Label>
         </StackPanel>
-        <StackPanel Grid.Row="2" Grid.Column="1">
-            <Label Content="Цена (р.)" FontSize="16"/>
+        <StackPanel Grid.Row="2" Grid.Column="1" Background="#FFD5AFD8">
+            <Label Content="Цена (р.)" FontSize="16" Background="#FFB885B8"/>
             <Label Content="320" FontSize="16"/>
             <Label Content="100" FontSize="16"/>
         </StackPanel>
-        <StackPanel Grid.Row="3" Grid.Column="0">
-            <Label Content="Напитки" FontSize="16"/>
+        <StackPanel Grid.Row="3" Grid.Column="0" Background="#FFD5AFD8">
+            <Label Content="Напитки" FontSize="16" Background="#FFB885B8"/>
             <Label Content="Лимонад" FontSize="16" MouseDoubleClick="limonad_MouseDoubleClick">
                 <Label.ToolTip>
                     <ToolTip Width="200" Height="150">
@@ -95,13 +95,13 @@
                 </Label.ToolTip>
             </Label>
         </StackPanel>
-        <StackPanel Grid.Row="3" Grid.Column="1">
-            <Label Content="Цена (р.)" FontSize="16"/>
+        <StackPanel Grid.Row="3" Grid.Column="1" Background="#FFD5AFD8">
+            <Label Content="Цена (р.)" FontSize="16" Background="#FFB885B8"/>
             <Label Content="60" FontSize="16"/>
             <Label Content="40" FontSize="16"/>
         </StackPanel>
-        <StackPanel Grid.Row="4" Grid.Column="0">
-            <Label Content="Десерты" FontSize="16"/>
+        <StackPanel Grid.Row="4" Grid.Column="0" Background="#FFD5AFD8">
+            <Label Content="Десерты" FontSize="16" Background="#FFB885B8"/>
             <Label Content="Пирожное день и ночь" FontSize="16" MouseDoubleClick="dennoch_MouseDoubleClick">
                 <Label.ToolTip>
                     <ToolTip Width="200" Height="150">
@@ -121,13 +121,13 @@
                 </Label.ToolTip>
             </Label>
         </StackPanel>
-        <StackPanel Grid.Row="4" Grid.Column="1">
-            <Label Content="Цена (р.)" FontSize="16"/>
+        <StackPanel Grid.Row="4" Grid.Column="1" Background="#FFD5AFD8">
+            <Label Content="Цена (р.)" FontSize="16" Background="#FFB885B8"/>
             <Label Content="120" FontSize="16"/>
             <Label Content="135" FontSize="16"/>
         </StackPanel>
-        <StackPanel Grid.Row="5" Grid.Column="0">
-            <Label Content="Закуски" FontSize="16"/>
+        <StackPanel Grid.Row="5" Grid.Column="0" Background="#FFD5AFD8">
+            <Label Content="Закуски" FontSize="16" Background="#FFB885B8"/>
             <Label Content="Сырная закуска на чипсах" FontSize="16" MouseDoubleClick="chips_MouseDoubleClick">
                 <Label.ToolTip>
                     <ToolTip Width="200" Height="150">
@@ -147,23 +147,96 @@
                 </Label.ToolTip>
             </Label>
         </StackPanel>
-        <StackPanel Grid.Row="5" Grid.Column="1">
-            <Label Content="Цена (р.)" FontSize="16"/>
+        <StackPanel Grid.Row="5" Grid.Column="1" Background="#FFD5AFD8">
+            <Label Content="Цена (р.)" FontSize="16" Background="#FFB885B8"/>
             <Label Content="80" FontSize="16"/>
             <Label Content="85" FontSize="16"/>
         </StackPanel>
-        <Button Content="Купить" Grid.Column="2" HorizontalAlignment="Left" Margin="10,38,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" Click="rass_Click1"/>
-        <Button Content="Купить" Grid.Column="2" HorizontalAlignment="Left" Margin="10,63,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" Click="borsh_Click_2"/>
-        <Button Content="Купить" Grid.Column="2" HorizontalAlignment="Left" Margin="10,38,0,0" Grid.Row="2" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Купить" Grid.Column="2" HorizontalAlignment="Left" Margin="10,63,0,0" Grid.Row="2" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Купить" Grid.Column="2" HorizontalAlignment="Left" Margin="10,38,0,0" Grid.Row="3" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Купить" Grid.Column="2" HorizontalAlignment="Left" Margin="10,63,0,0" Grid.Row="3" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Купить" Grid.Column="2" HorizontalAlignment="Left" Margin="10,38,0,0" Grid.Row="4" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Купить" Grid.Column="2" HorizontalAlignment="Left" Margin="10,63,0,0" Grid.Row="4" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Купить" Grid.Column="2" HorizontalAlignment="Left" Margin="10,38,0,0" Grid.Row="5" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Купить" Grid.Column="2" HorizontalAlignment="Left" Margin="10,63,0,0" Grid.Row="5" VerticalAlignment="Top" Width="75"/>
-        <TextBlock x:Name="zakaz" Grid.Column="3" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="446" Width="299" Grid.RowSpan="4"/>
-        <TextBlock x:Name="itog" Grid.Column="3" HorizontalAlignment="Left" Margin="50,38,0,0" Grid.Row="5" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="166" Text="0"/>
+        <Button Content="Купить" Grid.Column="2" HorizontalAlignment="Left" Margin="10,38,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" Click="rass_Click1" Foreground="Black" FontSize="14">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFD342B2" Offset="0"/>
+                    <GradientStop Color="#FFF9BDFF" Offset="0.659"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Купить" Grid.Column="2" HorizontalAlignment="Left" Margin="10,63,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" Click="borsh_Click_2" Foreground="Black" FontSize="14">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFD342B2" Offset="0"/>
+                    <GradientStop Color="#FFF9BDFF" Offset="0.659"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Купить" Grid.Column="2" HorizontalAlignment="Left" Margin="10,38,0,0" Grid.Row="2" VerticalAlignment="Top" Width="75" Click="karbonara_Click_3" Foreground="Black" FontSize="14">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFD342B2" Offset="0"/>
+                    <GradientStop Color="#FFF9BDFF" Offset="0.659"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Купить" Grid.Column="2" HorizontalAlignment="Left" Margin="10,63,0,0" Grid.Row="2" VerticalAlignment="Top" Width="75" Click="golybci_Click_4" Foreground="Black" FontSize="14">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFD342B2" Offset="0"/>
+                    <GradientStop Color="#FFF9BDFF" Offset="0.659"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Купить" Grid.Column="2" HorizontalAlignment="Left" Margin="10,38,0,0" Grid.Row="3" VerticalAlignment="Top" Width="75" Click="limonad_Click_5" Foreground="Black" FontSize="14">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFD342B2" Offset="0"/>
+                    <GradientStop Color="#FFF9BDFF" Offset="0.659"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Купить" Grid.Column="2" HorizontalAlignment="Left" Margin="10,63,0,0" Grid.Row="3" VerticalAlignment="Top" Width="75" Click="kompot_Click_6" Foreground="Black" FontSize="14">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFD342B2" Offset="0"/>
+                    <GradientStop Color="#FFF9BDFF" Offset="0.659"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Купить" Grid.Column="2" HorizontalAlignment="Left" Margin="10,38,0,0" Grid.Row="4" VerticalAlignment="Top" Width="75" Click="dennoch_Click_7" Foreground="Black" FontSize="14">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFD342B2" Offset="0"/>
+                    <GradientStop Color="#FFF9BDFF" Offset="0.659"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Купить" Grid.Column="2" HorizontalAlignment="Left" Margin="10,63,0,0" Grid.Row="4" VerticalAlignment="Top" Width="75" Click="krasn_Click_8" Foreground="Black" FontSize="14">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFD342B2" Offset="0"/>
+                    <GradientStop Color="#FFF9BDFF" Offset="0.659"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Купить" Grid.Column="2" HorizontalAlignment="Left" Margin="10,38,0,0" Grid.Row="5" VerticalAlignment="Top" Width="75" Click="chips_Click_9" Foreground="Black" FontSize="14">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFD342B2" Offset="0"/>
+                    <GradientStop Color="#FFF9BDFF" Offset="0.659"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Купить" Grid.Column="2" HorizontalAlignment="Left" Margin="10,63,0,0" Grid.Row="5" VerticalAlignment="Top" Width="75" Click="kanape_Click_10" Foreground="Black" FontSize="14">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFD342B2" Offset="0"/>
+                    <GradientStop Color="#FFF9BDFF" Offset="0.659"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBlock x:Name="zakaz" Grid.Column="3" HorizontalAlignment="Left" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="497" Width="395" Grid.RowSpan="4" Background="#FFD5AFD8" FontSize="16"/>
+        <TextBlock x:Name="itog" Grid.Column="3" HorizontalAlignment="Left" Margin="22,19,0,0" Grid.Row="6" TextWrapping="Wrap" VerticalAlignment="Top" Height="78" Width="319" Text="0" FontSize="48" FontWeight="Bold"/>
+        <Label Content="МЕНЮ" HorizontalAlignment="Left" Margin="57,42,0,0" VerticalAlignment="Top" Foreground="#FF7D2597" FontSize="48"/>
+        <Label Content="Итого" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Grid.Column="3" Foreground="#FF7D2597" FontSize="48" Grid.Row="5"/>
+        <Label Content="Заказ" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" Grid.Column="3" Foreground="#FF7D2597" FontSize="48"/>
 
     </Grid>
 </Window>
